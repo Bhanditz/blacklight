@@ -3,8 +3,8 @@ module Blacklight
   class Engine < Rails::Engine
     engine_name "blacklight"
 
-    require 'bootstrap-sass'
-    require 'twitter-typeahead-rails'
+    # require 'bootstrap-sass'
+    # require 'twitter-typeahead-rails'
 
     # BlacklightHelper is needed by all helpers, so we inject it
     # into action view base here. 
